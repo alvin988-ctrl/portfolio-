@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #000; /* Black background */
+    }
+    .navbar-nav .nav-link {
+      color: #fff; /* White text */
+      font-weight: bold;
+      
+    }
+    .navbar-nav .nav-link:hover {
+      color: #ccc; /* Light gray on hover */
+    }
+    .social-icons .nav-link {
+      color: #fff; /* White social icons */
+      font-size: 25px;
+    }
+    .social-icons .nav-link:hover {
+      color: #ccc; /* Light gray on hover */
+    }
+    /* first-slide */
+        .about{
+          font-size: 70px;
+          font-weight: 700;
+        }
+        .about-me{
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.623);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .about-me-info{
+            
+        }
+    /* first-slide */
+
+         /* skill-list */
+              .skill-header{
+                font-size: 25px;
+              }
+              .skill-list{
+                color: rgba(0, 0, 0, 0.781);
+              }
+              
+         /* skill-list */
+
+          /* music-skill */
+                .music-skill{
+                  font-size: 25px;
+                  color:  rgba(0, 0, 0, 0.781);;
+                }
+             ic-skill */
+
+          .second-header{
+            margin-top: 15%;
+            color:  rgba(0, 0, 0, 0.733);;
+          }
+          .third-header{
+            font-size: 25px;
+            color:  rgba(0, 0, 0, 0.733);;
+          }
+          .hobby:hover{
+            color: rgba(0, 0, 0, 0.644);
+          }
+          .fourth-header{
+            margin-top: 10%;
+            color:  rgba(0, 0, 0, 0.733);;
+          }
+          .fifth-header{
+            font-size: 30px;
+            color: rgba(0, 0, 0, 0.733);
+          }
+          .fifth-header-text{
+            font-size: 14px;
+          }
+          .fifth-header-box{
+            margin-top: 10%;
+          }
+          .chart-bar{
+            margin-top: 10%;
+          }
+          .sixth-header{
+            margin-top: 10%;
+          }
+          .seventh-header{
+            margin-top: 10%;
+          }
+          .eight-header{
+            margin-top: 10%;
+          }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="path/to/logo.png" alt="Logo" style="height: 40px;">
+    </a>
+
+    <!-- Toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Centered nav links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Book</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social icons on the right -->
+    <div class="social-icons d-none d-lg-flex">
+      <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+      <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+      <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</nav>
+ 
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col">
+
+                     <div data-aos="fade-right"> 
+                      <p class="about">Godwin Alvin Kelvin</p> 
+                      <p class="about-me">I'm a frontend developer based in Abuja, Nigeria.</p>
+                      <p class="about-me-info"> is a skilled frontend developer with a passion for creating seamless and visually engaging digital experiences. With a deep expertise in HTML, CSS, JavaScript, and React, Alvin has a knack for building user-friendly interfaces that are both functional and aesthetically pleasing. His proficiency with modern frameworks like Bootstrap, Materialize, and Tailwind allows him to create responsive, accessible, and well-structured designs that bring concepts to life.
+
+                        Since starting his development journey in 2015, Alvin has been dedicated to transforming complex challenges into intuitive solutions. He excels at blending creativity with technical precision, ensuring that each project meets the needs of users while maintaining a clean and polished look.
+                        
+                        Beyond his coding skills, Alvin brings a strong eye for detail and a user-first mindset to every project. He’s committed to staying up-to-date with the latest trends in frontend development, leveraging his knowledge of both classic and cutting-edge tools to deliver optimal results.
+                        
+                        When not coding, Alvin indulges in his love for music as a professional pianist, enjoys the thrill of gaming, and stays active with outdoor workouts. His diverse interests feed his creative spirit, making him a well-rounded developer who approaches problem-solving from unique angles.
+                        
+                        
+                      </p>
+                  
+                  
+                  
+                </div>
+              </div>
+
+                <div class="col">
+                  <div data-aos="fade-left"><img src="image/graphic_2-removebg-preview.png" width="100%" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <div class="card"><img src="img/car 1.webp" width="100%" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"><img src="img/oil 1.jpg" width="100%" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"><img src="img/oil 2.jpg" width="100%" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"><img src="img/oil 3.jpg" width="100%" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"><img src="img/oil and gas new.jpg" width="100%" alt=""></div>
+                    </div>
+                    <div class="col">
+                        <div class="card"><img src="img/oil and gas.jpg" width="100%" alt=""></div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="second-header">
+          <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="skill-header">Frontend Skill</p>
+                    <ul class="skill-list">
+                      <p>HTML</p>
+                      <p>CSS</p>
+                      <p>Javascript</p>
+                      <p>Bootstrap</p>
+                      <p>Materialize</p>
+                      <p>React.js</p>
+                      <p>Angular.js</p>
+                    </ul>
+                </div>
+
+                <div class="col">
+                  <div data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"> <img src="img/oil 3.jpg" width="100%" alt="">
+              </div>
+              </div>
+
+                <div class="col">
+                    <p class="music-skill">Music Skill</p>
+                    <ul class="music-skill-list">
+                      <p>Jazz Pianist</p>
+                      <p>Singer</p>
+                      <p>Music Producer</p>
+                      <p>Jazz Arranger</p>
+                      <p>Afro Beat Producer</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="fourth-header">
+          <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                  <div data-aos="fade-right"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine"> <img src="img/smoke image.webp" width="100%" alt="">
+             </div>
+                </div>
+                <div class="col">
+                  <p class="third-header">Random Facts</p>
+                  <ul class="hobby">
+                    <p>I love cooking but i don't eat much</p>
+                    <p>I can't speak my native language fluently 😆</p>
+                    <p>I'm always reserved in public but crazy in privite</p>
+                    <p>Boxing is my favorite sport</p>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+      
+            <div class="chart-bar">
+              <div class="container bg-dark">
+                <!-- First Chart -->
+                  <canvas id="myChart1" width="400" height="150"></canvas>
+                  <script>
+                    // Chart 1
+                    const ctx1 = document.getElementById('myChart1').getContext('2d');
+                    new Chart(ctx1, {
+                      type: 'bar',
+                      data: {
+                        labels: ['HTML', 'MUSIC', 'CSS', 'JAVASCRIPT', 'EATING', 'TRAVELLING'],
+                        datasets: [{
+                          label: 'My Skills',
+                          data: [16, 18, 19 , 16, 13, 9],
+                          backgroundColor: [
+                          'rgba(255, 99, 132, 0.2)',
+                          'rgba(255, 159, 64, 0.2)',
+                          'rgba(255, 205, 86, 0.2)',
+                          'rgba(75, 192, 192, 0.2)',
+                          'rgba(54, 162, 235, 0.2)',
+                          'rgba(153, 102, 255, 0.2)',
+                          'rgba(201, 203, 207, 0.2)'
+                        ],
+                        borderColor: [
+                          'rgb(255, 99, 132)',
+                          'rgb(255, 159, 64)',
+                          'rgb(255, 205, 86)',
+                          'rgb(75, 192, 192)',
+                          'rgb(54, 162, 235)',
+                          'rgb(153, 102, 255)',
+                          'rgb(201, 203, 207)'
+                        ],
+                        borderWidth: 1,
+                        borderRadius: 10
+                        }]
+                      },
+                      options: {
+                        scales: {
+                          yAxes: [{
+                            ticks: {
+                              beginAtZero: true
+                            }
+                          }]
+                        }
+                      }
+                    });
+                  </script>
+                </div>
+           </div>
+        
+               <div class="fifth-header-box">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <p class="fifth-header">Featured here & there</p>
+                      <p class="fifth-header-text">I've had the opportunity to have my projects featured in publications and online platforms worldwide. I've also spoken at various tech events and enjoy sharing my enthusiasm for frontend development on social media.</p>
+                    </div>
+                    <div class="col"><a href=""><div data-aos="fade-up-left"><img src="img/car 1.webp" width="100%" alt=""></div></a></div>
+                  </div>
+                </div>
+             </div>
+
+               <div class="sixth-header">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                     <a href=""><div data-aos="fade-down-right"><img src="img/oil 2.jpg" width="100%" alt=""></div></a>
+                    </div>
+                    <div class="col"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque sed voluptas aut deserunt vero. Veniam sit distinctio nobis, iusto quae doloribus consectetur ad facere debitis quo esse nostrum praesentium ab?</p></div>
+                  </div>
+                </div>
+            </div>
+
+              <div class="seventh-header">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus in ipsum quas fugiat qui perferendis at, cum exercitationem minus odit!</p>
+                    </div>
+                    <div class="col"> 
+                     <div class="row">
+                      
+                      <div class="col"><a href=""><div data-aos="fade-down-left"><img src="img/car 1.webp" width="100%" alt=""></div></a></div>
+                      <div class="col"><a href=""><div data-aos="fade-down-left"><img src="img/car 1.webp" width="100%" alt=""></div></a></div>
+                      <div class="col"><a href=""><div data-aos="fade-down-left"><img src="img/car 1.webp" width="100%" alt=""></div></a></div>
+                      
+                     </div>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+
+                <div class="eight-header">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                       <a href=""><div data-aos="flip-left"><img src="img/oil 2.jpg" width="100%" alt=""></div></a>
+                      </div>
+                      <div class="col"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque sed voluptas aut deserunt vero. Veniam sit distinctio nobis, iusto quae doloribus consectetur ad facere debitis quo esse nostrum praesentium ab?</p></div>
+                    </div>
+                  </div>
+                </div>
+
+     <script src="../js/jQuery.js"></script>
+     <script src="../js/bootstrap.js"></script>
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>

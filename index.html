@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script>
+        // Initialize particles.js
+particlesJS("particles-js", {
+    particles: {
+        number: {
+            value: 80,
+            density: {
+                enable: true,
+                value_area: 800
+            }
+        },
+        color: {
+            value: "#ffffff"
+        },
+        shape: {
+            type: "circle",
+            stroke: {
+                width: 0,
+                color: "#000000"
+            },
+            polygon: {
+                nb_sides: 5
+            }
+        },
+        opacity: {
+            value: 0.5,
+            random: false,
+            anim: {
+                enable: false,
+                speed: 1,
+                opacity_min: 0.1,
+                sync: false
+            }
+        },
+        size: {
+            value: 5,
+            random: true,
+            anim: {
+                enable: false,
+                speed: 40,
+                size_min: 0.1,
+                sync: false
+            }
+        },
+        line_linked: {
+            enable: true,
+            distance: 150,
+            color: "#ffffff",
+            opacity: 0.4,
+            width: 1
+        },
+        move: {
+            enable: true,
+            speed: 6,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200
+            }
+        }
+    },
+    interactivity: {
+        detect_on: "canvas",
+        events: {
+            onhover: {
+                enable: true,
+                mode: "repulse"
+            },
+            onclick: {
+                enable: true,
+                mode: "push"
+            },
+            resize: true
+        },
+        modes: {
+            grab: {
+                distance: 400,
+                line_linked: {
+                    opacity: 1
+                }
+            },
+            bubble: {
+                distance: 400,
+                size: 40,
+                duration: 2,
+                opacity: 8,
+                speed: 3
+            },
+            repulse: {
+                distance: 200,
+                duration: 0.4
+            },
+            push: {
+                particles_nb: 4
+            },
+            remove: {
+                particles_nb: 2
+            }
+        }
+    },
+    retina_detect: true
+});
+
+    </script>
+
+    <style>
+            /* Style the particles container */
+    #particles-js {
+        width: 100%;
+        height: 100vh; /* Full screen */
+        background-color: #000; /* Background color */
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1; /* Ensure it's behind other content */
+    }
+   
+    /* Content styling */
+    .content {
+        position: relative; /* Positioned relatively to stay above #particles-js */
+        z-index: 10; /* Higher than #particles-js to layer it on top */
+        color: white; /* Text color for visibility */
+        text-align: center; /* Center the content */
+        padding-top: 20vh; /* Add some top padding for spacing */
+    }
+
+.navbar {
+      background-color: #000; /* Black background */
+    }
+    .navbar-nav .nav-link {
+      color: white; /* White text */
+      font-weight: bold;
+      
+    }
+    .navbar-nav .nav-link:hover {
+      color: #ccc; /* Light gray on hover */
+    }
+    .social-icons .nav-link {
+      color: white; /* White social icons */
+      font-size: 25px;
+    }
+    .social-icons .nav-link:hover {
+      color: #ccc; /* Light gray on hover */
+    }
+
+    .about{
+          font-size: 70px;
+          font-weight: 700;
+        }
+        .about-me{
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.623);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .about-me-info{
+            font-size: 15px;
+        }
+
+        .part-1{
+            font-size: 15px;
+        }
+            .first-button{
+            
+            }
+            .about-1{
+                font-size: 20px;
+            }
+    </style>
+
+    <div id="particles-js"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="path/to/logo.png" alt="Logo" style="height: 40px;">
+    </a>
+
+    <!-- Toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Centered nav links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Book</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social icons on the right -->
+    <div class="social-icons d-none d-lg-flex">
+      <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+      <a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
+      <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</nav>
+
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="about">Hi,</p> 
+                        <p class="about-1">I am Alvin, a frontend developer.</p>
+                <p class="about-me">I'm a frontend developer based in Abuja, Nigeria.</p>
+                <p class="about-me-info">Since 2015, I've been passionate about turning intricate challenges into elegant, intuitive user interfaces. When I'm not immersed in frontend development, you'll likely find me playing the piano, exploring new games, or enjoying an active day in the park.
+                </p>
+                    </div>
+
+                    <div class="col">
+                        <img src="image/jajuar_photo_2-removebg-preview.png" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <!-- Button to toggle the collapsible content -->
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#exampleCollapse" aria-expanded="false" aria-controls="exampleCollapse">
+              Alvin as a frontend developer
+            </button>
+        
+            <!-- Collapsible content -->
+            <div class="collapse mt-3" id="exampleCollapse">
+              <div class="card card-body">
+                <p class="part-1">Alvin is a skilled Frontend Developer with a passion for creating intuitive, responsive, and visually appealing web applications. With a strong background in HTML, CSS, JavaScript, and modern frontend frameworks like ReactJS and Angular, Alvin is dedicated to delivering high-quality user experiences. He has a keen eye for design and an excellent understanding of UI/UX principles, ensuring that every project not only functions seamlessly but also looks great. <span class="learn-more"><a href="learn-more.html">learn more.</a></span></p>
+              </div>
+            </div>
+          </div>
+       
+          
+      
+            
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="app.js"></script>
+
+    <script src="bootstrap-4.6.2-dist/js/jQuery.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+
+
+   </body>
+</html>
